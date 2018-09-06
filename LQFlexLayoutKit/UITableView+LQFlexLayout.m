@@ -369,7 +369,7 @@ typedef NSMutableArray<NSMutableArray<NSNumber *> *> LQIndexPathHeightBySections
     return [objc_getAssociatedObject(self, _cmd) boolValue];
 }
 
--(void)setGw_isTemplateLayoutCell:(BOOL)lq_isTemplateLayoutCell {
+-(void)setLq_isTemplateLayoutCell:(BOOL)lq_isTemplateLayoutCell {
     objc_setAssociatedObject(self, @selector(lq_isTemplateLayoutCell), @(lq_isTemplateLayoutCell), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
