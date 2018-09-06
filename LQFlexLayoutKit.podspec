@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LQFlexLayoutKit"
-  s.version      = "0.0.3"
+  s.version      = "0.1.0"
   s.summary      = "An iOS flex layout kit based on facebook's Yoga framework."
   s.description  = "LQFlexLayoutKit is based on facebook's Yoga framework, it expand YogaKit's function, such as async layout and dynamic tableview cell height etc."
   s.homepage     = "https://github.com/chy305chy/LQFlexLayoutKit"
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "8.0"
   s.ios.deployment_target = "8.0"
   s.ios.framework = 'UIKit'
-  s.source = { :git => "https://github.com/chy305chy/LQFlexLayoutKit.git", :tag => "v0.0.3" }
+  s.source = { :git => "https://github.com/chy305chy/LQFlexLayoutKit.git", :tag => "v0.1.0" }
   s.source_files  = "LQFlexLayoutKit/*.{h,m}"
   s.public_header_files = "LQFlexLayoutKit/*.h"
   s.requires_arc = true
