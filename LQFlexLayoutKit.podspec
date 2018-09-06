@@ -16,13 +16,5 @@ Pod::Spec.new do |s|
   s.public_header_files = "LQFlexLayoutKit/*.h"
   s.requires_arc = true
   s.dependency "Yoga", "~> 1.9"
-  s.compiler_flags = [
-      '-fno-omit-frame-pointer',
-      '-fexceptions',
-      '-Wall',
-      '-Werror',
-      '-std=c++1y',
-      '-fPIC'
-  ]
 
 end
